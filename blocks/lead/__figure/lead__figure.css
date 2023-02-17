@@ -1,0 +1,14 @@
+.lead__figure {
+    width: calc(100% - 148px*2);
+    margin: 0;
+}
+@media screen and (max-width: 1024px) {
+    .lead__figure {
+          width: calc(100% - 2*48px);
+        }
+}
+@media screen and (max-width: 768px) {
+    .lead__figure {
+          width: 100%;
+        }
+}
