@@ -13,22 +13,22 @@
     background-position: center;   
     align-items: center;
     gap: 32px;
-    position: relative;
 }
+
 @media screen and (max-width: 1024px) {
     .cover__card {
-            width: 100%;
-            min-height: 640px;
+        width: 100%;
+        min-height: 640px;
         }
 }
 @media screen and (max-width: 768px) {
     .cover__card {
-            min-height: 480px;
+        min-height: 480px;
         }
 }
 @media screen and (max-width: 320px) {
     .cover__card {
-            min-height: 200px;
+        min-height: 200px;
         }
 }
 .cover__card::before {
