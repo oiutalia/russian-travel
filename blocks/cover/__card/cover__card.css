@@ -43,6 +43,7 @@
         gap: 16px;
         }
 }
+
 .cover__card::before {
     content: '';
     opacity: 0.3;
