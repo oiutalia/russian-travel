@@ -14,19 +14,14 @@
 @media screen and (max-width: 768px) {
     .lead__tittle {
             margin: 68px auto 32px;
+            font-size: 90px;
         }
 }
 @media screen and (max-width: 675px) {
     .lead__tittle {
-            font-size: 40px;
-            line-height: 44px;
-        }
-}
-@media screen and (max-width: 320px) {
-    .lead__tittle {
-            max-width: 288px;
-            font-size: 40px;
-            line-height: 44px;
-            margin: 48px auto 16px;
-        }
+        max-width: 288px;
+        font-size: 40px;
+        line-height: 44px;
+        margin: 48px 16px 16px;
+    }
 }

@@ -1,6 +1,7 @@
 .intro {
     margin: 92px auto 0;
     width: calc(100% - 2*148px);
+    box-sizing: border-box;
 }
 @media screen and (max-width: 1024px) {
     .intro {
@@ -10,10 +11,12 @@
 @media screen and (max-width: 768px) {
     .intro {
           width: calc(100% - 2*24px);
+          margin-top: 68px;
         }
 }
 @media screen and (max-width: 320px) {
     .intro {
           width: calc(100% - 2*16px);
+          margin: 64px auto 0;
         }
 }

@@ -11,17 +11,19 @@
 }
 @media screen and (max-width: 768px) {
     .places__place {
+            grid-template: repeat(2, auto) / minmax(auto, 340px) minmax(auto, 352px);
             gap: 48px 28px; 
+    
         }
 }
-@media screen and (max-width: 485px) {
+@media screen and (max-width: 650px) {
     .places__place {
-            grid-template-columns: repeat(1, auto);
+            grid-template-columns: 100%;
         }
 }
 @media screen and (max-width: 320px) {
     .places__place {
-            grid-template-columns: repeat(1, auto);
+        grid-template-columns: 100%;
             gap: 32px; 
         }
 }

@@ -5,8 +5,16 @@
     margin: 0;
     padding: 0;
 }
-@media screen and (max-width: 320px) {
+
+
+@media screen and (max-width: 767px) {
     .footer__links {
             flex-direction: column;
+        }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__links {
+        gap: 32px;
         }
 }

@@ -5,6 +5,8 @@
     text-transform: uppercase;
     letter-spacing: 0.15em;
     margin-top: 8px;
+    box-sizing: border-box;
+
 }
 @media screen and (max-width: 768px) {
     .lead__caption {
