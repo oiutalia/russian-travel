@@ -6,7 +6,7 @@
 }
 @media screen and (max-width: 1024px) {
     .places__place {
-            gap: 48px 32px;  
+            gap: 47px 12px;  
         }
 }
 @media screen and (max-width: 768px) {

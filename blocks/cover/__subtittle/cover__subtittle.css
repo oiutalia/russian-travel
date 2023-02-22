@@ -20,7 +20,7 @@
 @media screen and (max-width: 320px) {
     .cover__subtittle {
             max-width: 288px;
-            margin-bottom: 33px;
+            margin-bottom: 18px;
             font-size: 14px;
             line-height: 16px;
         }
